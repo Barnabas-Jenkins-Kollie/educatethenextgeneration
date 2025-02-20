@@ -1,9 +1,9 @@
 
 
 
-var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-var btnText = document.getElementById("myBtn");
+var dots = document.querySelector(".dots");
+  var moreText = document.querySelector(".more");
+var btnText = document.querySelector(".myBtn");
   
 btnText.addEventListener("click", () => {
   if (dots.style.display === "none") {

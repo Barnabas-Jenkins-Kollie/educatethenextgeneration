@@ -716,7 +716,7 @@
     left: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
     transition: 0.5s;
     opacity: 0;
 }
@@ -736,6 +736,6 @@
 
 
 /*** extra styling ***/
-#more {
+.more {
     display: none;
 }
