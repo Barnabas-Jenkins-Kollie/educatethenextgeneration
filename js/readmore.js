@@ -1,9 +1,11 @@
-function readmore() {
-    
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
 
+
+
+var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+var btnText = document.getElementById("myBtn");
+  
+btnText.addEventListener("click", () => {
   if (dots.style.display === "none") {
     dots.style.display = "inline";
     btnText.innerHTML = "Read more"; 
@@ -13,5 +15,4 @@ function readmore() {
     btnText.innerHTML = "Read less"; 
     moreText.style.display = "inline";
   }
-}
-
+});
